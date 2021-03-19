@@ -15,6 +15,9 @@ The goal for an SVM model is to learn how to draw the line between two categorie
 We use the library BeautifulSoup to process the html encoding present in some tweets due to scrapping.
 The function grid-Svm.fit was very useful to us because it allowed us to find the best combinations between the parameters passed to it. So we could have thanks to grid-svm-score the score obtained from our model as shown in the following figure.
 
+For our predictive model, when we wanted to find the compromise between the true positive rate and the false positive rate, we had to use the ROC curves. So we could have the following diagram:
+ In sum, we can say that our linear classifier SVM gave us good results compared to other algorithms that would not have been as efficient. However, when there is too much data, the SVM tends to decrease in performance.
+
 
 
 
